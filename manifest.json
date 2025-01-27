@@ -1,0 +1,12 @@
+{
+  "name": "Remove Premium HTML Element",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+        "matches": ["https://asuracomic.net/series/*/chapter/*"],
+        "js": ["content_script.js"]
+    }
+]
+}
